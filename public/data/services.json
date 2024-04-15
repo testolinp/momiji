@@ -1,0 +1,45 @@
+{
+  "title": "<strong>We are an interdisciplinary team</strong> that creates digital products with purpose.",
+  "videoUrl": "/videos/dift.mp4",
+  "videoImage": "/images/services.jpg",
+  "services": [
+    {
+      "title": "Consulting",
+      "subtitle": "Research<br />Strategy &amp; Planning<br />Ideation",
+      "description": "From activation stunts to campaigns, we set priorities to create communication strategies that are both innovative and effective."
+    },
+    {
+      "title": "Products & Services",
+      "subtitle": "Propotyiping<br />Developement<br />Visual Design & UX",
+      "description": "We develop products and services, always keeping in mind both our client and our client's clients."
+    },
+    {
+      "title": "Content",
+      "subtitle": "Branding<br />Audiovisual<br />Motion",
+      "description": "Beautiful storytelling for your brand. We help bring its values to life through smart and purposeful design."
+    }
+  ],
+  "experienceTitle": "we endeavour to deliver powerful user experiences",
+  "experienceCards": [
+    {
+      "image": "/images/services-steps.jpg",
+      "title": "Think & Design",
+      "description": "In a world of constant flux, nothing is fixed. As an interdisciplinary team we strive to find the best possible value proposition."
+    },
+    {
+      "image": "/images/services-steps.jpg",
+      "title": "Build",
+      "description": "New ventures off the ground, using our highest craft, causing minimal friction to create end to end, world class user experiences."
+    },
+    {
+      "image": "/images/services-steps.jpg",
+      "title": "MVP",
+      "description": "Fail fast, learn faster. We develop a Minimun Viable Product and from there on, work with our clients to create an amazing final product, with its complete set of features."
+    },
+    {
+      "image": "/images/services-steps.jpg",
+      "title": "Lean Methodology",
+      "description": "Create the most value with fewer and better directed resources. To do so, we partner with our clients applying startup practices."
+    }
+  ]
+}

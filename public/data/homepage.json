@@ -1,0 +1,34 @@
+{
+  "herospace": {
+    "title": "we are a <strong>digital</strong> strategy studio",
+    "image": "/images/home-herospace.gif",
+    "cta": "see our work",
+    "cta_url": "/work"
+  },
+  "works": {
+    "title": "some of our work",
+    "items": [
+      {
+        "path": "/work/arooound",
+        "image": "/images/some-work.jpg",
+        "title": "Arooound",
+        "description": "AR App. Branding and Development"
+      },
+      {
+        "path": "/work/centro-cultural-cervecero",
+        "image": "/images/some-work2.jpg",
+        "title": "Centro Cultural Cervecero",
+        "description": "Creation & Branding"
+      }
+    ]
+  },
+  "latest": {
+    "title": "latest thinking",
+    "article_link": "https://blog.dift.co/introducing-arooound-e066a785ae3c",
+    "article_image": "/images/thinking.jpg",
+    "article_date": "Dec 13, 2017",
+    "article_title": "Mental health meets Augmented Reality",
+    "article_description": "Introducing Phobos - the world’s first markerless augmented reality application for mental health.",
+    "article_cta": "View on medium"
+  }
+}

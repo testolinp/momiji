@@ -1,0 +1,26 @@
+{
+  "title": "contact us",
+  "offices": [
+    {
+      "background": "blue",
+      "icon": "icon-ba",
+      "location": "buenos aires",
+      "title": "office",
+      "phone": "+5411.3962.3000 Int. 126",
+      "neighborhood": "Conesa 1051 - Colegiales"
+    },
+    {
+      "background": "yellow",
+      "icon": "icon-miami",
+      "location": "miami",
+      "title": "office",
+      "phone": "+1.305.975.6975",
+      "neighborhood": ""
+    }
+  ],
+  "tellUs": {
+    "title": "/slide into our DMs",
+    "description": "Tell us about you, your project, or just write to get in touch with us.",
+    "contact": "newbiz@dift.co"
+  }
+}

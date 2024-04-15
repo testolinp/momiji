@@ -1,0 +1,104 @@
+{
+  "navigation": {
+    "ariaLg": "Dift.co Homepage",
+    "ariaClose": "Close Menu",
+    "ariaOpen": "Open Menu",
+    "menu": [
+      {
+        "title": "/work",
+        "links": [
+          {
+            "title": "project",
+            "href": "/work",
+            "target": null
+          },
+          {
+            "title": "blog",
+            "href": "https://blog.dift.co/",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "title": "/about",
+        "links": [
+          {
+            "title": "services",
+            "href": "/services",
+            "target": null
+          },
+          {
+            "title": "team",
+            "href": "/team",
+            "target": null
+          }
+        ]
+      },
+      {
+        "title": "/reach us",
+        "links": [
+          {
+            "title": "contact",
+            "href": "/contact-us",
+            "target": null
+          }
+        ]
+      }
+    ],
+    "socials": [
+      {
+        "icon": "icon-twitter",
+        "path": "https://twitter.com/diftcollective",
+        "ariaLabel": "Visit us on Twitter"
+      },
+      {
+        "icon": "icon-facebook",
+        "path": "https://www.facebook.com/DiftCollective/",
+        "ariaLabel": "Visit us on Facebook"
+      },
+      {
+        "icon": "icon-instagram",
+        "path": "https://www.instagram.com/diftco/",
+        "ariaLabel": "Visit us on Instagram"
+      },
+      {
+        "icon": "icon-dribbble",
+        "path": "https://dribbble.com/dift_co",
+        "ariaLabel": "Visit us on Dribbble"
+      },
+      {
+        "icon": "icon-medium",
+        "path": "https://medium.com/@DiftCollective",
+        "ariaLabel": "Visit us on Medium"
+      },
+      {
+        "icon": "icon-behance",
+        "path": "https://www.behance.net/diftcollective",
+        "ariaLabel": "Visit us on Behance"
+      }
+    ]
+  },
+  "footer": {
+    "mainLink": {
+      "title": "Contact us",
+      "href": "/contact-us"
+    },
+    "socials": [
+      {
+        "icon": "icon-twitter",
+        "href": "https://twitter.com/diftcollective",
+        "ariaLabel": "Visit us on Twitter"
+      },
+      {
+        "icon": "icon-facebook",
+        "href": "https://www.facebook.com/DiftCollective/",
+        "ariaLabel": "Visit us on Facebook"
+      },
+      {
+        "icon": "icon-instagram",
+        "href": "https://www.instagram.com/diftco/",
+        "ariaLabel": "Visit us on Instagram"
+      }
+    ]
+  }
+}

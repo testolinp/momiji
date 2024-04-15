@@ -1,0 +1,105 @@
+{
+  "title": "Arooound",
+  "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+  "modules": [
+    {
+      "module": "HerospaceImage",
+      "backgroundImage": "https://dummyimage.com/1920x1080/000/fff"
+    },
+    {
+      "module": "SectionOverview",
+      "title": "Arooound",
+      "col1": {
+        "title": "/About",
+        "description": "Duis laoreet finibus justo quis cursus. In in tellus id tellus dapibus cursus. Donec vulputate facilisis auctor. Proin mollis libero nec viverra accumsan."
+      },
+      "col2": {
+        "title": "/Team",
+        "textsList": [
+          "John Doe",
+          "Jane Doe",
+          "John Smith",
+          "Jane Smith"
+        ]
+      },
+      "col3": {
+        "title": "/Deliverables",
+        "textsList": [
+          "John Doe",
+          "Jane Doe",
+          "John Smith",
+          "Jane Smith"
+        ]
+      },
+      "col4": {
+        "title": "/Learn more",
+        "iconList": [
+          {
+            "icon": "ladder",
+            "link": "/work"
+          },
+          {
+            "icon": "ladder",
+            "link": "/work"
+          },
+          {
+            "icon": "ladder",
+            "link": "/work"
+          },
+          {
+            "icon": "ladder",
+            "link": "/work"
+          }
+        ]
+      }
+    },
+    {
+      "module": "ImageAndText",
+      "title": "/Lorem ipsum dolor sit amet",
+      "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "image": "https://dummyimage.com/1920x1280/000/fff",
+      "textsList": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation"
+      ],
+      "imagePosition": "right",
+      "backgroundColor": "grey"
+    },
+    {
+      "module": "ImageAndText",
+      "title": "/Lorem ipsum dolor sit amet",
+      "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "image": "https://dummyimage.com/1920x1280/000/fff",
+      "textsList": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation"
+      ],
+      "imagePosition": "left",
+      "backgroundColor": "black"
+    },
+    {
+      "module": "ImageAndText",
+      "title": "/Lorem ipsum dolor sit amet",
+      "description": "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "image": "https://dummyimage.com/1920x1280/000/fff",
+      "textsList": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Ut enim ad minim veniam, quis nostrud exercitation"
+      ],
+      "imagePosition": "right",
+      "backgroundColor": "grey"
+    },
+    {
+      "module": "FullWidthImage",
+      "image": "https://dummyimage.com/1920x1080/000/fff"
+    },
+    {
+      "module": "PreviousAndNextNav",
+      "previousWork": "https://google.com",
+      "nextWork": "https://dift.com"
+    }
+  ]
+}
