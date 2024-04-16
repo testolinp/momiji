@@ -1,0 +1,43 @@
+.team {
+  padding: 100px 16px 100px;
+}
+
+.team h2 {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 65px;
+  color: var(--black-color);
+}
+
+.team__list {
+  padding-top: 64px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .team h2 {
+    font-size: 110px;
+    line-height: 130px;
+    text-align: center;
+  }
+
+  .team__list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .team {
+    padding: 100px 60px 200px;
+  }
+
+  .team h2 {
+    font-size: 134px;
+    line-height: 164px;
+  }
+}

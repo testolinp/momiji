@@ -1,0 +1,41 @@
+.teamCard {
+  color: var(--white-color);
+}
+
+.teamCard__image {
+  border-radius: 40px;
+  background: var(--grey-color);
+  width: 100%;
+  aspect-ratio: 3/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamCard h3 {
+  padding-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black-color);
+}
+
+.teamCard p {
+  padding-top: 12px;
+  color: rgba(0, 0, 0, .5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .teamCard h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .teamCard p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

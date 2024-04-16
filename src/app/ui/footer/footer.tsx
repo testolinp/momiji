@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './footer.module.css'
-import { inter } from '../fonts'
+import {inter} from '../fonts'
 
 export default function Footer({data}) {
   const {mainLink, socials} = data

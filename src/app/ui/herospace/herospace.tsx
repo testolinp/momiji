@@ -1,11 +1,9 @@
 import styles from './herospace.module.css'
-import { inter } from '../fonts'
+import {inter} from '../fonts'
 import Image from 'next/image'
-import { Herospace } from '../../page'
+import {Herospace} from '../../page'
 
 export default function Herospace() {
-
-
   return (
     <section className={styles.herospace}>
       <div className={styles.herospace__content}>

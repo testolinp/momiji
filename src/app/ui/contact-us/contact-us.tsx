@@ -2,7 +2,6 @@ import Link from 'next/link'
 import styles from './contact-us.module.css'
 
 export default function ContactUs() {
-
   return (
     <section className={styles.contact}>
       <span>IS your big idea ready to go wild?</span>
