@@ -1,0 +1,70 @@
+.visions {
+  padding: 100px 16px 40px;
+}
+
+.visions__content {
+  padding-top: 64px;
+}
+
+.visions h2 {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 65px;
+  color: var(--black-color);
+}
+
+.visions__content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: var(--black-color);
+  padding-bottom: 32px;
+}
+
+.visions__content .visions__talk {
+  display: inline-flex;
+  border-radius: 21px;
+  padding: 0 24px;
+  height: 42px;
+  background: var(--black-color);
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 500;
+  gap: 8px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .visions h2 {
+    font-size: 110px;
+    line-height: 130px;
+  }
+
+  .visions h2 span {
+    display: block;
+    padding-left: 16.6%;
+  }
+
+  .visions__content {
+    padding-top: 80px;
+    padding-left: 58%;
+  }
+
+  .visions__content p {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .visions {
+    padding: 100px 60px;
+  }
+
+  .visions h2 {
+    font-size: 134px;
+    line-height: 164px;
+  }
+}

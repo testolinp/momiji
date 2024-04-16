@@ -15,7 +15,7 @@
 
 .projects__header p {
   font-size: 22px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: 500;
 }
 
@@ -35,7 +35,8 @@
   }
 
   .projects__header h2 {
-    font-size: 148px;
+    font-size: 110px;
+    line-height: 130px;
     padding: 0;
   }
 
@@ -54,5 +55,10 @@
 @media only screen and (min-width: 1280px) {
   .projects {
     padding: 100px 60px 200px;
+  }
+
+  .projects__header h2 {
+    font-size: 134px;
+    line-height: 164px;
   }
 }
