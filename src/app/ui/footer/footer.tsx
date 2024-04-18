@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import styles from './footer.module.css'
 
 export default function Footer() {
@@ -8,7 +7,7 @@ export default function Footer() {
           <div className={styles.footer__newsletter}>
             <h2>Subscribe to <span>our newsletter</span></h2>
             <div className={styles.footer__newsletter__form}>
-              Form
+              <input placeholder='Your emain' />
             </div>
           </div>
           <ul className={styles.footer__content}>
@@ -16,9 +15,14 @@ export default function Footer() {
               Uriarte 1572,<br/>C1414 Cdad.<br/>Autónoma de Buenos Aires<br/>Argentina
             </li>
             <li className={styles.footer__content__social}>Twitter / X
-                <br/>Instagram<br/>Linkedin</li>
-            <li className={styles.footer__content__business}>New business<br/>business@gignko.co</li>
-            <li className={styles.footer__content__contact}>General enquires<br/>hello@gignko.co</li>
+                <br/>Instagram<br/>Linkedin
+            </li>
+            <li className={styles.footer__content__business}>
+              New business<br/>business@gignko.co
+            </li>
+            <li className={styles.footer__content__contact}>
+              General enquires<br/>hello@gignko.co
+            </li>
           </ul>
         </div>
         <div className={styles.footer__copyright}>
