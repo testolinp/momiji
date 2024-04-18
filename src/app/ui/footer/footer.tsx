@@ -8,6 +8,11 @@ export default function Footer() {
             <h2>Subscribe to <span>our newsletter</span></h2>
             <div className={styles.footer__newsletter__form}>
               <input placeholder='Your emain' />
+              <button aria-label='Send your email'>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="black"/>
+                </svg>
+              </button>
             </div>
           </div>
           <ul className={styles.footer__content}>
