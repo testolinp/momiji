@@ -15,10 +15,10 @@ export default function Footer() {
             <li className={styles.footer__content__address}>
               Uriarte 1572,<br/>C1414 Cdad.<br/>Autónoma de Buenos Aires<br/>Argentina
             </li>
-            <li className={styles.footer__content__social}><a href='http://www.twitter.com'>Twitter / X</a>
-                <br/><a href='http://www.instagram.com'>Instagram</a><br/><a href='http://www.linkedin.com'>Linkedin</a></li>
-            <li className={styles.footer__content__business}>New business<br/><a href='mailto:business@gignko.co'>business@gignko.co</a></li>
-            <li className={styles.footer__content__contact}>General enquires<br/><a href='mailto:hello@gignko.co'>hello@gignko.co</a></li>
+            <li className={styles.footer__content__social}>Twitter / X
+                <br/>Instagram<br/>Linkedin</li>
+            <li className={styles.footer__content__business}>New business<br/>business@gignko.co</li>
+            <li className={styles.footer__content__contact}>General enquires<br/>hello@gignko.co</li>
           </ul>
         </div>
         <div className={styles.footer__copyright}>
