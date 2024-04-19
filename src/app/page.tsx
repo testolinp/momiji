@@ -3,6 +3,7 @@ import Herospace from './ui/herospace/herospace'
 import Projects from './ui/projects/projects';
 import Team from './ui/team/team';
 import Visions from './ui/visions/visions';
+import Services from './ui/services/services';
 
 export type Herospace = {
   title: string;
@@ -16,6 +17,7 @@ export default async function Homepage() {
     <>
       <Herospace></Herospace>
       <Visions></Visions>
+      <Services></Services>
       <Team></Team>
       <Projects></Projects>
       <ContactUs></ContactUs>

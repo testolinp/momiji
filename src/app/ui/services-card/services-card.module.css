@@ -1,0 +1,22 @@
+.serviceCard {
+  background-color: #E3E6EF;
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.serviceCard h3 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0 0 20px;
+}
+
+.serviceCard ul li {
+  font-size: 16px;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.serviceCard ul li:not(:last-child) {
+  border-bottom: 1px solid #d8d0da;
+}
