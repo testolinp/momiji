@@ -4,7 +4,7 @@ import {Herospace} from '../../page'
 
 export default function Herospace() {
   return (
-    <section className={styles.herospace}>
+    <section className={`container ${styles.herospace}`}>
       <div className={styles.herospace__content}>
         <h1 className={styles.herospace__title}
             dangerouslySetInnerHTML={{ __html: 'We build epic real time interactive experiences to blow people’s minds' }}></h1>

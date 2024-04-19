@@ -1,7 +1,3 @@
-.services {
-  padding: 100px 16px 40px;
-}
-
 .services .list {
   display: grid;
   gap: 20px;
@@ -59,10 +55,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .services {
-    padding: 100px 60px;
-  }
-
   .services h2 {
     font-size: 134px;
     line-height: 164px;

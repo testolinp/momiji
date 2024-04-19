@@ -3,7 +3,7 @@ import styles from './services.module.css'
 
 export default function Services() {
   return (
-    <section className={styles.services}>
+    <section className={`container ${styles.services}`}>
       <h2><span>Our services &</span> Area of expertise</h2>
       <ul className={styles.list}>
         <li>

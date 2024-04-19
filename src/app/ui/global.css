@@ -30,6 +30,18 @@ a {
   color: inherit;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 60px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 100px 60px;
+  }
+}
+
 :root {
   --grey-color: #e3e6ef;
   --black-color: #000;

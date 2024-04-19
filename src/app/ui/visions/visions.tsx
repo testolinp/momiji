@@ -3,7 +3,7 @@ import styles from './visions.module.css'
 
 export default function Visions() {
   return (
-    <section className={styles.visions}>
+    <section className={`container ${styles.visions}`}>
       <h2><span>Beyond visions</span> Within reach</h2>
       <div className={styles.visions__content}>
         <p>Lusion is a digital production studio that brings your ideas to life through visually captivating designs and interactive experiences. With our talented team, we push the boundaries by solving complex problems, delivering tailored solutions that exceed expectations and engage audiences.</p>

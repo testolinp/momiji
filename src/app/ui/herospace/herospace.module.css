@@ -3,7 +3,7 @@
 }
 
 .herospace__image {
-  padding: 140px 16px;
+  padding: 140px 0 0;
 }
 
 .herospace__image__content {
@@ -62,6 +62,6 @@
   }
 
   .herospace__image {
-    padding: 140px 60px;
+    padding: 140px 0 0;
   }
 }
