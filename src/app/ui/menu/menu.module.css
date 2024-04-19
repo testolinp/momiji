@@ -1,166 +1,110 @@
 .menu {
-    background-color: var(--menu-background);
-    display: flex;
-    flex-direction: column;
-    height: 100dvh;
-    left: 0;
-    opacity: 0;
-    padding: 0 30px;
-    pointer-events: none;
-    position: fixed;
-    top: 0;
-    transition: opacity .3s ease-in-out;
-    visibility: hidden;
-    width: 100%;
-  }
-  
-  .menu__show {
-    opacity: 1;
-    pointer-events: inherit;
-    visibility: visible;
-  }
-  
-  .menu__header {
-    align-items: center;
-    display: flex;
-    height: 50px;
-    width: 100%;
-  }
-  
-  .menu__header__lg {
-    align-items: center;
-    display: flex;
-    height: 100%;
-  }
-  
-  .menu__header__lg::before {
-    color: var(--menu-color);
-    font-size: 60px;
-  }
-  
-  .menu__header__close {
-    align-items: center;
-    background-color: transparent;
-    border: 0 none;
-    cursor: pointer;
-    display: flex;
-    height: 30px;
-    justify-content: center;
-    margin-left: auto;
-    width: 30px;
-  }
-  
-  .menu__header__close::before {
-    color: var(--menu-color);
-    font-size: 20px;
-  }
-  
-  .menu__nav {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    margin-top: auto;
-  }
-  
-  .menu__nav__content {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-  }
-  
-  .menu__nav__content span {
-    color: var(--menu-title-color);
-    display: none;
-    font-size: 17px;
-    font-weight: 500;
-  }
-  
-  .menu__nav__content a {
-    color: var(--menu-color);
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 26px;
-  }
-  
-  .menu__social {
-    display: flex;
-    gap: 15px;
-    padding: 80px 0 30px;
-  }
-  
-  .menu__social a {
-    align-items: center;
-    display: flex;
-    height: 30px;
-    justify-content: center;
-    width: 30px;
-  }
-  
-  .menu__social a::before {
-    color: var(--menu-color);
-    font-size: 24px;
-  }
+  background-color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  transition: opacity .3s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+}
 
-@media only screen and (min-width: 768px) {
-  .menu {
-    margin-left: auto;
-    padding: 0 50px;
-    right: 0;
-    width: 400px;
-  }
+.menu__show {
+  opacity: 1;
+  pointer-events: inherit;
+  visibility: visible;
+}
 
-  .menu__header {
-    height: 60px;
-  }
+.menu__wrapper {
+  padding: 64px 16px;
+}
 
-  .menu__header__lg {
-    display: none;
-  }
+.menu__nav {
+  background-color: var(--grey-color);
+  padding: 24px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
-  .menu__header__close::before {
-    font-size: 24px;
-  }
+.menu__nav a {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 500;
+  color: var(--black-color);
+  text-transform: uppercase;
+}
 
-  .menu__nav {
-    gap: 15px;
-  }
+.menu__newsletter {
+  background-color: var(--grey-color);
+  padding: 24px;
+  border-radius: 40px;
+  margin-top: 16px;
+}
 
-  .menu__nav__content {
-    gap: 15px;
-    padding-top: 60px;
-  }
+.menu__newsletter h2 {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 24px;
+}
 
-  .menu__nav__content span {
-    display: block;
-    padding-bottom: 10px;
-  }
+.menu__newsletter__input {
+  position: relative;
+}
 
-  .menu__nav__content a {
-    font-size: 25px;
-    line-height: 25px;
-  }
+.menu__newsletter__input input {
+  height: 42px;
+  padding: 0 24px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  border: 0 none;
+  width: 100%;
+  border-radius: 40px;
+}
 
-  .menu__social {
-    padding-top: 50px;
-  }
+.menu__newsletter__input button {
+  background-color: transparent;
+  border: 0 none;
+  width: 42px;
+  height: 42px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media only screen and (min-width: 1024px) {
   .menu {
-    width: 360px;
+    width: 294px;
+    right: 60px;
+    left: auto;
+    top: 110px;
+    background-color: transparent;
   }
 
-  .menu__header {
-    height: 78px;
+  .menu__wrapper {
+    padding: 0;
   }
-
-  .menu__nav__content span {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
+  
   .menu__nav {
-    width: 320px;
+    box-shadow: 2px 2px 10px 1px #0002;
+  }
+
+  .menu__newsletter {
+    box-shadow: 2px 2px 10px 1px #0002;
   }
 }
+/* 
+@media only screen and (min-width: 1280px) {
+} */

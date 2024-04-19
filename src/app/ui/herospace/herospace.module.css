@@ -11,11 +11,8 @@
   width: 100%;
   background-color: var(--grey-color);
   border-radius: 40px;
+  overflow: hidden;
 }
-/* 
-.herospace__image img {
-  object-fit: cover;
-} */
 
 .herospace__content {
   width: 100%;
@@ -39,6 +36,17 @@
     max-width: 500px;
     padding-left: 16.6%;
     box-sizing: content-box;
+  }
+
+  .herospace__image {
+    position: relative;
+  }
+
+  .herospace__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   .herospace__image__content {

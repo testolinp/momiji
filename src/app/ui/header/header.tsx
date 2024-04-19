@@ -30,8 +30,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      {/* <Menu showMenu={showMenu} displayMenu={displayMenu}
-          socials={socials} menu={menu} ariaClose={ariaClose}></Menu> */}
+      <Menu showMenu={showMenu} displayMenu={displayMenu}></Menu>
     </header>
   )
 }

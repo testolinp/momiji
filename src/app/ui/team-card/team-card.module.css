@@ -10,6 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+.teamCard__image img {
+  object-fit: cover;
 }
 
 .teamCard h3 {

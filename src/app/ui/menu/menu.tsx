@@ -1,52 +1,29 @@
-import { inter } from '../fonts'
 import Link from "next/link"
 import styles from './menu.module.css'
 
-export default function Menu({showMenu, displayMenu, socials, menu, ariaClose}) {
-
-  const renderLink = (link) => {
-    let button;
-    const {title, href, target} = link
-
-    if (target) {
-      button = <a href={href} target="_blank" className={inter.className}>{title}</a>
-    } else {
-      button = <Link href={href} className={inter.className} onClick={displayMenu}>{title}</Link>
-    }
-
-    return button
-  }
-
+export default function Menu({showMenu}) {
   return (
     <div className={`${styles.menu} ${showMenu ? styles.menu__show : ''}`}>
-      <div className={styles.menu__header}>
-        <div className={`${styles.menu__header__lg} icon-lg`}></div>
-        <button className={`${styles.menu__header__close} icon-close`} 
-            onClick={displayMenu} aria-label={ariaClose}></button>
+      <div className={styles.menu__wrapper}>
+        <nav className={styles.menu__nav}>
+          <Link href='/'>About</Link>
+          <Link href='/'>Services</Link>
+          <Link href='/'>People</Link>
+          <Link href='/'>Projects</Link>
+          <Link href='/'>Contact</Link>
+        </nav>
+        <div className={styles.menu__newsletter}>
+          <h2>Subscribe to our newsletter</h2>
+          <div className={styles.menu__newsletter__input}>
+            <input placeholder='Your email' />
+            <button>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M16.175 13H4V11H16.175L10.575 5.4L12 4L20 12L12 20L10.575 18.6L16.175 13Z" fill="black"/>
+            </svg>
+            </button>
+          </div>
+        </div>
       </div>
-      <nav className={styles.menu__nav}>
-        {menu.map((item, index) => {
-          const {title, links} = item
-          return (
-            <div className={styles.menu__nav__content} key={index}>
-              <span className={inter.className}>{title}</span>
-              {links.map((link, index) => {
-                return (
-                  <div key={index}>{renderLink(link)}</div>
-                )
-              })}
-            </div>
-          )
-        })}
-      </nav>
-      <nav className={styles.menu__social}>
-        {socials.map((social, index) => {
-          const {icon, path, ariaLabel} = social
-          return (
-            <a href={path} target="_blank" className={icon} aria-label={ariaLabel} key={index}></a>
-          )
-        })}
-      </nav>
     </div>
   )
 }
