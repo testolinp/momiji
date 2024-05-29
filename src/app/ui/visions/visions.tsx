@@ -4,9 +4,11 @@ import styles from './visions.module.css'
 export default function Visions() {
   return (
     <section className={`container ${styles.visions}`}>
-      <h2><span>Beyond visions</span> Within reach</h2>
+      <h2><span>Transformación Digital</span> a tu Medida</h2>
       <div className={styles.visions__content}>
-        <p>Lusion is a digital production studio that brings your ideas to life through visually captivating designs and interactive experiences. With our talented team, we push the boundaries by solving complex problems, delivering tailored solutions that exceed expectations and engage audiences.</p>
+        <p>
+          En nuestra empresa, creamos desarrollos web a medida e implementamos CRMs innovadores. Utilizamos tecnología avanzada para ser tu socio estratégico, ayudándote a alcanzar tus objetivos de negocio a través de la transformación digital. Impulsa tu crecimiento con soluciones personalizadas y eficientes.
+        </p>
         <Link href='/' className={styles.visions__talk} aria-label="Let's talk">
             let’s talk
             <svg width="24" height="25" viewBox="0 0 24 25" fill="none">

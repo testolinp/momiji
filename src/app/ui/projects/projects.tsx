@@ -11,16 +11,32 @@ export default function Projects() {
         </div>
         <ul className={styles.projects__list}>
           <li>
-            <ProjectCard></ProjectCard>
+            <ProjectCard
+              title="Caliber"
+              description="Empresa que ofrece ofrece servicios completos de reparación automotriz, incluyendo reparación de colisiones, reparación de vidrios de autos y cuidado general del automóvil."
+              image="/images/project.jpg"
+            ></ProjectCard>
           </li>
           <li>
-            <ProjectCard></ProjectCard>
+            <ProjectCard
+              title="Project Title"
+              description="Project Description"
+              image="/images/project.jpg"
+            ></ProjectCard>
           </li>
           <li>
-            <ProjectCard></ProjectCard>
+            <ProjectCard
+              title="Project Title"
+              description="Project Description"
+              image="/images/project.jpg"
+            ></ProjectCard>
           </li>
           <li>
-            <ProjectCard></ProjectCard>
+            <ProjectCard
+              title="Project Title"
+              description="Project Description"
+              image="/images/project.jpg"
+            ></ProjectCard>
           </li>
         </ul>
       </div>
