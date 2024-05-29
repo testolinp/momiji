@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className={`container ${styles.footer}`}>
         <div className={styles.footer__wrapper}>
           <div className={styles.footer__newsletter}>
-            <h2>Subscribe to <span>our newsletter</span></h2>
+            <h2>Suscribirse a<span> nuestro newsletter</span></h2>
             <div className={styles.footer__newsletter__form}>
-              <input placeholder='Your emain' />
-              <button aria-label='Send your email'>
+              <input placeholder='Tu email' />
+              <button aria-label='Enviar email'>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="black"/>
                 </svg>
@@ -17,16 +17,16 @@ export default function Footer() {
           </div>
           <ul className={styles.footer__content}>
             <li className={styles.footer__content__address}>
-              Uriarte 1572,<br/>C1414 Cdad.<br/>Autónoma de Buenos Aires<br/>Argentina
+              La casa de pato,<br/>C1414 Cdad.<br/>Autónoma de Buenos Aires<br/>Argentina
             </li>
             <li className={styles.footer__content__social}>Twitter / X
                 <br/>Instagram<br/>Linkedin
             </li>
             <li className={styles.footer__content__business}>
-              New business<br/>business@gignko.co
+              Nuevas empresas<br/>business@sharpti.com
             </li>
             <li className={styles.footer__content__contact}>
-              General enquires<br/>hello@gignko.co
+              Preguntas generales<br/>hello@sharpti.com
             </li>
           </ul>
         </div>

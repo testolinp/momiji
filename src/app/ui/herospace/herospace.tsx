@@ -6,8 +6,9 @@ export default function Herospace() {
   return (
     <section className={`container ${styles.herospace}`}>
       <div className={styles.herospace__content}>
-        <h1 className={styles.herospace__title}
-            dangerouslySetInnerHTML={{ __html: 'We build epic real time interactive experiences to blow people’s minds' }}></h1>
+        <h1 className={styles.herospace__title}>
+          Generamos productos digitales a medida de cada cliente, siempre con foco en la experiencia de sus usuarios
+        </h1>
       </div>
       <div className={styles.herospace__image}>
         <div className={styles.herospace__image__content}>
