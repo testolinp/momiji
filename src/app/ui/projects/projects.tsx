@@ -6,8 +6,8 @@ export default function Projects() {
     <section className={styles.projects}>
       <div className="container">
         <div className={styles.projects__header}>
-          <h2>Projects</h2>
-          <p>Lusion is a digital production studio that brings your ideas to life through visually captivating designs and interactive experiences.</p>
+          <h2>Proyectos</h2>
+          {/* <p>Lusion is a digital production studio that brings your ideas to life through visually captivating designs and interactive experiences.</p> */}
         </div>
         <ul className={styles.projects__list}>
           <li>
@@ -19,21 +19,21 @@ export default function Projects() {
           </li>
           <li>
             <ProjectCard
-              title="Project Title"
+              title="Gut Agency"
+              description="Desarrollamos su sitio en tres idiomas para resaltar su crecimiento en diversas regiones."
+              image="/images/project.jpg"
+            ></ProjectCard>
+          </li>
+          <li>
+            <ProjectCard
+              title="Dift.co"
               description="Project Description"
               image="/images/project.jpg"
             ></ProjectCard>
           </li>
           <li>
             <ProjectCard
-              title="Project Title"
-              description="Project Description"
-              image="/images/project.jpg"
-            ></ProjectCard>
-          </li>
-          <li>
-            <ProjectCard
-              title="Project Title"
+              title="Filo.news"
               description="Project Description"
               image="/images/project.jpg"
             ></ProjectCard>

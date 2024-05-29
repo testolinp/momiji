@@ -12,7 +12,7 @@ export default function RootLayout(
   return (
     <html lang="en">
       <head>
-        <title>Momiji agency</title>
+        <title>Sharpti</title>
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header></Header>

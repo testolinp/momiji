@@ -15,8 +15,8 @@
 
 @media only screen and (min-width: 1024px) {
   .team h2 {
-    font-size: 110px;
-    line-height: 130px;
+    font-size: 100px;
+    line-height: 120px;
     text-align: center;
   }
 
@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 1280px) {
   .team h2 {
-    font-size: 134px;
-    line-height: 164px;
+    font-size: 124px;
+    line-height: 154px;
   }
 }

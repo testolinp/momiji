@@ -4,7 +4,7 @@ import styles from './visions.module.css'
 export default function Visions() {
   return (
     <section className={`container ${styles.visions}`}>
-      <h2><span>Transformación Digital</span> a tu Medida</h2>
+      <h2><span>Transformación</span> Digital a tu Medida</h2>
       <div className={styles.visions__content}>
         <p>
           En nuestra empresa, creamos desarrollos web a medida e implementamos CRMs innovadores. Utilizamos tecnología avanzada para ser tu socio estratégico, ayudándote a alcanzar tus objetivos de negocio a través de la transformación digital. Impulsa tu crecimiento con soluciones personalizadas y eficientes.

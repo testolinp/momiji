@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className={`container ${styles.footer}`}>
         <div className={styles.footer__wrapper}>
-          <div className={styles.footer__newsletter}>
+          {/* <div className={styles.footer__newsletter}>
             <h2>Suscribirse a<span> nuestro newsletter</span></h2>
             <div className={styles.footer__newsletter__form}>
               <input placeholder='Tu email' />
@@ -14,10 +14,10 @@ export default function Footer() {
                 </svg>
               </button>
             </div>
-          </div>
+          </div> */}
           <ul className={styles.footer__content}>
             <li className={styles.footer__content__address}>
-              La casa de pato,<br/>C1414 Cdad.<br/>Autónoma de Buenos Aires<br/>Argentina
+              Autónoma de Buenos Aires<br/>Argentina
             </li>
             <li className={styles.footer__content__social}>Twitter / X
                 <br/>Instagram<br/>Linkedin
@@ -31,7 +31,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footer__copyright}>
-          <small>© gingko creative studio</small>
+          <small>© sharpti 2024</small>
         </div>
     </footer>
   )
