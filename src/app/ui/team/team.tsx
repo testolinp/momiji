@@ -7,9 +7,6 @@ export default function Team() {
       <h2>Conocé al equipo</h2>
       <ul className={styles.team__list}>
         <li>
-          <TeamCard role='CRO' name='Delfina Galán'></TeamCard>
-        </li>
-        <li>
           <TeamCard role='CTO' name='Brian de Diego'></TeamCard>
         </li>
         <li>

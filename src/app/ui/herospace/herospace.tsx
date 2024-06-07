@@ -1,6 +1,5 @@
 import styles from './herospace.module.css'
 import Image from 'next/image'
-import {Herospace} from '../../page'
 
 export default function Herospace() {
   return (
@@ -12,7 +11,7 @@ export default function Herospace() {
       </div>
       <div className={styles.herospace__image}>
         <div className={styles.herospace__image__content}>
-          <Image src='/images/herospace.jpg' width={1600} height={0} priority={true}
+          <Image src='/images/main.jpg' width={1600} height={0} priority={true}
               alt='' style={{ width: '100%', height: '100%' }} />
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 import styles from './header.module.css'
 import Link from 'next/link'
-import Menu from "../menu/menu"
+// import Menu from '../menu/menu'
 import {useState} from 'react'
 
 export default function Header() {
@@ -30,7 +30,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <Menu showMenu={showMenu}></Menu>
+      {/* <Menu showMenu={showMenu}></Menu> */}
     </header>
   )
 }
