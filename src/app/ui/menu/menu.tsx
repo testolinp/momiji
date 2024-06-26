@@ -12,7 +12,7 @@ export default function Menu({showMenu}) {
           <Link href='/'>Projects</Link>
           <Link href='/'>Contact</Link>
         </nav>
-        <div className={styles.menu__newsletter}>
+        {/* <div className={styles.menu__newsletter}>
           <h2>Subscribe to our newsletter</h2>
           <div className={styles.menu__newsletter__input}>
             <input placeholder='Your email' />
@@ -22,7 +22,7 @@ export default function Menu({showMenu}) {
             </svg>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
