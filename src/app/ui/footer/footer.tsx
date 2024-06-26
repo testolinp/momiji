@@ -19,8 +19,7 @@ export default function Footer() {
             <li className={styles.footer__content__address}>
               Autónoma de Buenos Aires<br/>Argentina
             </li>
-            <li className={styles.footer__content__social}>Twitter / X
-                <br/>Instagram<br/>Linkedin
+            <li className={styles.footer__content__social}>Linkedin<br/>Whatsapp
             </li>
             <li className={styles.footer__content__business}>
               Nuevas empresas<br/>business@sharpti.com

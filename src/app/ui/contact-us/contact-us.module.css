@@ -41,9 +41,15 @@
 }
 
 .contact__cta svg {
-  position: relative;
-  top: 2px;
   fill: var(--light-black-color);
+  left: 0;
+  position: relative;
+  top: 0;
+  transition: left .3s ease-in-out;
+}
+
+.contact__cta:hover svg {
+  left: 5px;
 }
 
 @media only screen and (min-width: 1024px) {

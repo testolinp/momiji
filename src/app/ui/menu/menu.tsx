@@ -6,11 +6,11 @@ export default function Menu({showMenu}) {
     <div className={`${styles.menu} ${showMenu ? styles.menu__show : ''}`}>
       <div className={styles.menu__wrapper}>
         <nav className={styles.menu__nav}>
-          <Link href='/'>About</Link>
-          <Link href='/'>Services</Link>
-          <Link href='/'>People</Link>
-          <Link href='/'>Projects</Link>
-          <Link href='/'>Contact</Link>
+          <Link href='/'>Que hacemos</Link>
+          <Link href='/'>Servicios</Link>
+          <Link href='/'>Equipo</Link>
+          <Link href='/'>Projectos</Link>
+          <Link href='/'>Contacto</Link>
         </nav>
         {/* <div className={styles.menu__newsletter}>
           <h2>Subscribe to our newsletter</h2>

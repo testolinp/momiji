@@ -32,6 +32,16 @@
   align-items: center;
 }
 
+.visions__content .visions__talk svg {
+  position: relative;
+  left: 0;
+  transition: left .3s ease-in-out;
+}
+
+.visions__content .visions__talk:hover svg {
+  left: 5px;
+}
+
 @media only screen and (min-width: 1024px) {
   .visions h2 {
     font-size: 100px;
