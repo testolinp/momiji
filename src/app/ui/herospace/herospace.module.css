@@ -3,13 +3,17 @@
 }
 
 .herospace__image {
-  padding: 140px 0 0;
+  padding: 40px 0 0;
 }
 
 .herospace__image__content {
   height: 100vw;
   width: 100%;
-  background-color: var(--grey-color);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.herospace__image__content img {
   border-radius: 40px;
   overflow: hidden;
 }

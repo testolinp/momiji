@@ -1,19 +1,24 @@
+'use client'
+
 import styles from './herospace.module.css'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export default function Herospace() {
   return (
     <section className={`container ${styles.herospace}`}>
       <div className={styles.herospace__content}>
-        <h1 className={styles.herospace__title}>
+        <motion.h1 className={styles.herospace__title} initial={{ opacity: 0, top: 20 }}
+            whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .3, duration: .5 }} viewport={{ once: true }}>
           Generamos productos digitales a medida de cada cliente, siempre con foco en la experiencia de sus usuarios
-        </h1>
+        </motion.h1>
       </div>
       <div className={styles.herospace__image}>
-        <div className={styles.herospace__image__content}>
-          <Image src='/images/main.jpg' width={1600} height={0} priority={true}
-              alt='' style={{ width: '100%', height: '100%' }} />
-        </div>
+          <motion.div className={styles.herospace__image__content} initial={{ scale: .9, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }} transition={{ delay: .8, duration: .5 }} viewport={{ once: true }}>
+            <Image src='/images/main.jpg' width={1600} height={0} priority={true}
+                alt='' style={{ width: '100%', height: '100%' }} />
+          </motion.div>
       </div>
     </section>
   )
