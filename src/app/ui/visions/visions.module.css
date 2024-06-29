@@ -3,10 +3,11 @@
 }
 
 .visions h2 {
+  color: var(--black-color);
   font-size: 62px;
   font-weight: 500;
   line-height: 65px;
-  color: var(--black-color);
+  position: relative;
   word-wrap: break-word;
 }
 

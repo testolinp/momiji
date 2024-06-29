@@ -10,7 +10,7 @@ export default function RootLayout(
   const {footer} = data
 
   return (
-    <html lang="en">
+    <html lang='es-AR'>
       <head>
         <title>Sharpti</title>
       </head>

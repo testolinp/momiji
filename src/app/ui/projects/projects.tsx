@@ -1,43 +1,57 @@
+'use client'
+
 import ProjectCard from '../project-card/project-card'
 import styles from './projects.module.css'
+import { motion } from 'framer-motion'
 
 export default function Projects() {
+  const projects = [
+    {
+      title: 'Gut Agency',
+      description: 'Desarrollamos su sitio en tres idiomas para resaltar su crecimiento en diversas regiones.',
+      image: '/images/project-gut.jpg'
+    },
+    {
+      title: 'Dift.co',
+      description: 'Project Description',
+      image: '/images/project-dift.jpg'
+    },
+    {
+      title: 'Filo.news',
+      description: 'Project Description',
+      image: '/images/project-filo.jpg'
+    },
+    {
+      title: 'Caliber',
+      description: 'Empresa que ofrece ofrece servicios completos de reparación automotriz, incluyendo reparación de colisiones, reparación de vidrios de autos y cuidado general del automóvil.',
+      image: '/images/project-caliber.jpg'
+    },
+  ]
+
   return (
     <section className={styles.projects}>
       <div className='container'>
         <div className={styles.projects__header}>
-          <h2>Proyectos</h2>
-          {/* <p>Lusion is a digital production studio that brings your ideas to life through visually captivating designs and interactive experiences.</p> */}
+          <motion.h2 initial={{ opacity: 0, top: 20 }}
+              whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .8, duration: .5 }} viewport={{ once: true }}>
+            Proyectos
+          </motion.h2>
         </div>
         <ul className={styles.projects__list}>
-          <li>
-            <ProjectCard
-              title='Caliber'
-              description='Empresa que ofrece ofrece servicios completos de reparación automotriz, incluyendo reparación de colisiones, reparación de vidrios de autos y cuidado general del automóvil.'
-              image='/images/project-caliber.jpg'
-            ></ProjectCard>
-          </li>
-          <li>
-            <ProjectCard
-              title='Gut Agency'
-              description='Desarrollamos su sitio en tres idiomas para resaltar su crecimiento en diversas regiones.'
-              image='/images/project-gut.jpg'
-            ></ProjectCard>
-          </li>
-          <li>
-            <ProjectCard
-              title='Dift.co'
-              description='Project Description'
-              image='/images/project-dift.jpg'
-            ></ProjectCard>
-          </li>
-          <li>
-            <ProjectCard
-              title='Filo.news'
-              description='Project Description'
-              image='/images/project-filo.jpg'
-            ></ProjectCard>
-          </li>
+          {projects.map((project, key) => {
+            let delayTime = (60 + (6 * key)) / 100;
+
+            return (
+              <motion.li key={key} initial={{ opacity: 0, top: 20 }}
+                  whileInView={{ opacity: 1, top: 0 }} transition={{ delay: delayTime, duration: .5 }} viewport={{ once: true }}>
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                ></ProjectCard>
+              </motion.li>
+            )
+          })}
         </ul>
       </div>
     </section>
