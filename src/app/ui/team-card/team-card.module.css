@@ -6,7 +6,6 @@
   border-radius: 40px;
   background: var(--grey-color);
   width: 100%;
-  aspect-ratio: 3/3;
   display: flex;
   justify-content: center;
   align-items: center;

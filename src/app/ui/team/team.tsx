@@ -9,7 +9,7 @@ export default function Team() {
     {
       role: 'Advisor',
       name: 'Delfina Galan',
-      image: ''
+      image: '/images/team/delfina-galan.jpeg'
     },
     {
       role: 'CTO',
@@ -20,11 +20,6 @@ export default function Team() {
       role: 'CPO',
       name: 'Patricio Testolin',
       image: '/images/team/patricio-testolin.jpeg'
-    },
-    {
-      role: 'Senior Product Designer',
-      name: 'Valeria Gambarg',
-      image: ''
     },
     {
       role: 'Senior Brand Designer',

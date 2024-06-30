@@ -1,6 +1,8 @@
 import styles from './footer.module.css'
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className={`container ${styles.footer}`}>
         <div className={styles.footer__wrapper}>
@@ -19,18 +21,20 @@ export default function Footer() {
             <li className={styles.footer__content__address}>
               Autónoma de Buenos Aires<br/>Argentina
             </li>
-            <li className={styles.footer__content__social}>Linkedin<br/>Whatsapp
+            <li className={styles.footer__content__social}>
+              <a href='/' target='_blank'>Linkedin</a><br/>
+              <a href='/' target='_blank'>Whatsapp</a>
             </li>
             <li className={styles.footer__content__business}>
-              Nuevas empresas<br/>business@sharpti.com
+              Nuevas empresas<br/><a href='mailto:business@sharpti.com' target='_blank'>business@sharpti.com</a>
             </li>
             <li className={styles.footer__content__contact}>
-              Preguntas generales<br/>hello@sharpti.com
+              Preguntas generales<br/><a href='mailto:hello@sharpti.com' target='_blank'>hello@sharpti.com</a>
             </li>
           </ul>
         </div>
         <div className={styles.footer__copyright}>
-          <small>© sharpti 2024</small>
+          <small>© sharpti {currentYear}</small>
         </div>
     </footer>
   )
