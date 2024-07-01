@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function ContactUs() {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id='contact'>
       <motion.span initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
         Tenes una gran idea para conquistar el mundo?

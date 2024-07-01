@@ -21,7 +21,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className={`container ${styles.services}`}>
+    <section className={`container ${styles.services}`} id='services'>
       <motion.h2 initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
         <span>Servicios &</span> experiencia

@@ -29,7 +29,7 @@ export default function Projects() {
   ]
 
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id='projects'>
       <div className='container'>
         <div className={styles.projects__header}>
           <motion.h2 initial={{ opacity: 0, top: 20 }}

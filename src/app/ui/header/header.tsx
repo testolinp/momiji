@@ -12,6 +12,8 @@ export default function Header() {
     setShowMenu(!showMenu)
   }
 
+
+
   return (
     <header className={styles.header}>
       <div className={styles.header__wrapper}>

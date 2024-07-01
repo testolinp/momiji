@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function Visions() {
   return (
-    <section className={`container ${styles.visions}`}>
+    <section className={`container ${styles.visions}`} id='vision'>
       <motion.h2 initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
         <span>Transformación</span> Digital a tu Medida

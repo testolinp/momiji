@@ -96,6 +96,10 @@
     height: 124px;
   }
 
+  .header__lg {
+    font-size: 18px;
+  }
+
   .header__talk {
     display: flex;
   }
