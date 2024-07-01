@@ -33,6 +33,12 @@
   line-height: 19px;
 }
 
+.teamCard h3::selection,
+.teamCard p::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 @media only screen and (min-width: 1024px) {
   .teamCard h3 {
     font-size: 22px;

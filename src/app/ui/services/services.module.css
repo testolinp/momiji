@@ -16,6 +16,12 @@
   line-height: 65px;
 }
 
+.services h2::selection,
+.services span::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 @media only screen and (min-width: 768px) {
   .services .list {
     grid-template-columns: repeat(2, 1fr);

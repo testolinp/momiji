@@ -24,9 +24,19 @@
   font-weight: 500;
 }
 
+.projectCard p::selection {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
 .projectCard h3 {
   font-weight: 500;
   font-size: 22px;
+}
+
+.projectCard h3::selection {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 @media only screen and (min-width: 1024px) {

@@ -11,12 +11,23 @@
   word-wrap: break-word;
 }
 
+.visions h2::selection,
+.visions h2 span::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 .visions__content p {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   color: var(--black-color);
   padding-bottom: 32px;
+}
+
+.visions__content p::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 .visions__content .visions__talk {
@@ -31,6 +42,10 @@
   gap: 8px;
   text-transform: uppercase;
   align-items: center;
+}
+
+.visions__content .visions__talk::selection {
+  background-color: var(--black-color);
 }
 
 .visions__content .visions__talk svg {

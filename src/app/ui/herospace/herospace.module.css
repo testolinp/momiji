@@ -26,10 +26,15 @@
 .herospace__title {
   font-size: 24px;
   line-height: 27px;
-  color: var(--font-color);
+  color: var(--black-color);
   font-weight: 500;
   padding-top: 90px;
   max-width: 320px;
+}
+
+.herospace__title::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 @media only screen and (min-width: 1024px) {

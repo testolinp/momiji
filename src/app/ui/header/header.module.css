@@ -19,6 +19,11 @@
   text-transform: uppercase;
 }
 
+.header__lg::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 .header__buttons {
   margin-left: auto;
   display: flex;
@@ -41,6 +46,11 @@
   padding: 0 25px;
   text-transform: uppercase;
   width: auto;
+}
+
+.header__talk::selection {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 .header__talk svg {
@@ -70,6 +80,11 @@
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
+}
+
+.header__menu small::selection {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
 .header__menu span {

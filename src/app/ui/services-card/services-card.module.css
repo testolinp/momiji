@@ -10,11 +10,21 @@
   padding: 0 0 20px;
 }
 
+.serviceCard h3::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 .serviceCard ul li {
   font-size: 16px;
   font-weight: 500;
   list-style-type: none;
   padding: 20px 0;
+}
+
+.serviceCard ul li::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 .serviceCard ul li:not(:last-child) {

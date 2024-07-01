@@ -58,6 +58,12 @@
   padding-top: 64px;
 }
 
+.footer__content li::selection,
+.footer__content li a::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 .footer__content li:first-child {
   padding-top: 0;
 }
@@ -88,6 +94,11 @@
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
+}
+
+.footer__copyright small::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 @media only screen and (min-width: 1024px) {

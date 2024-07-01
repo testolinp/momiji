@@ -24,13 +24,13 @@ export default function StickyCursor() {
     mouse.y.set(clientY - cursorSize / 2);
   }
 
-  const expandMouse = () => {
-    console.log('vvvv')
-  }
+  // const expandMouse = () => {
+    
+  // }
 
   useEffect( () => {
     window.addEventListener("mousemove", manageMouseMove);
-    window.addEventListener('click', () => expandMouse())
+    // window.addEventListener('click', () => expandMouse())
     return () => {
       window.removeEventListener("mousemove", manageMouseMove)
 

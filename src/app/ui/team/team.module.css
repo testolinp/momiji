@@ -5,6 +5,11 @@
   color: var(--black-color);
 }
 
+.team h2::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
 .team__list {
   padding-top: 64px;
   list-style: none;
