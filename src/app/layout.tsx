@@ -2,6 +2,7 @@ import { inter } from './ui/fonts'
 import Footer from './ui/footer/footer'
 import './ui/global.css'
 import Header from './ui/header/header'
+import StickyCursor from './ui/sticky-cursor/sticky-cursor'
 
 export default function RootLayout(
     { children }: { children: React.ReactNode }) {
@@ -15,6 +16,7 @@ export default function RootLayout(
       <body className={`${inter.className} antialiased`}>
         <Header></Header>
         <main>
+          <StickyCursor />
           {children}
         </main>
         <Footer></Footer>
