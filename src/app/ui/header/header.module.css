@@ -11,7 +11,7 @@
   align-items: center;
   display: flex;
   height: 100%;
-  padding: 0 16px;
+  padding: 0 20px;
   z-index: 1;
 }
 
@@ -65,7 +65,7 @@
 
 .header__menu {
   border: 0 none;
-  display: flex;
+  display: none;
   height: 32px;
   justify-content: center;
   width: 32px;
@@ -109,6 +109,10 @@
 @media only screen and (min-width: 1024px) {
   .header {
     height: 124px;
+  }
+
+  .header__menu {
+    display: flex;
   }
 
   .header__lg {

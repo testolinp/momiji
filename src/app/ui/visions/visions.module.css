@@ -1,12 +1,12 @@
 .visions__content {
-  padding-top: 64px;
+  padding-top: 32px;
 }
 
 .visions h2 {
   color: var(--black-color);
-  font-size: 62px;
+  font-size: 45px;
   font-weight: 500;
-  line-height: 65px;
+  line-height: 49px;
   position: relative;
   word-wrap: break-word;
 }
@@ -56,6 +56,17 @@
 
 .visions__content .visions__talk:hover svg {
   left: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .visions h2 {
+    font-size: 62px;
+    line-height: 65px;
+  }
+
+  .visions__content {
+    padding-top: 64px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

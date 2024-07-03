@@ -8,8 +8,9 @@
 }
 
 .projects__header h2 {
-  font-size: 62px;
+  font-size: 45px;
   font-weight: 500;
+  line-height: 49px;
 }
 
 .projects__header h2::selection {
@@ -24,10 +25,21 @@
 }
 
 .projects__list {
-  padding-top: 64px;
+  padding-top: 44px;
   gap: 32px;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects__header h2 {
+    font-size: 62px;
+    line-height: 65px;
+  }
+
+  .projects__list {
+    padding-top: 64px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

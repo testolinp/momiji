@@ -2,7 +2,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(1, 1fr);
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .services .list > li {
@@ -11,9 +11,9 @@
 
 .services h2 {
   color: var(--black-color);
-  font-size: 62px;
+  font-size: 45px;
   font-weight: 500;
-  line-height: 65px;
+  line-height: 49px;
 }
 
 .services h2::selection,
@@ -25,6 +25,12 @@
 @media only screen and (min-width: 768px) {
   .services .list {
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 80px;
+  }
+
+  .services h2 {
+    font-size: 62px;
+    line-height: 65px;
   }
 }
 
