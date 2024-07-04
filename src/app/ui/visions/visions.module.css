@@ -18,10 +18,10 @@
 }
 
 .visions__content p {
+  color: var(--black-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color: var(--black-color);
   padding-bottom: 32px;
 }
 
@@ -31,17 +31,17 @@
 }
 
 .visions__content .visions__talk {
-  display: inline-flex;
-  border-radius: 21px;
-  padding: 0 24px;
-  height: 42px;
+  align-items: center;
   background: var(--black-color);
+  border-radius: 21px;
   color: var(--white-color);
+  display: inline-flex;
   font-size: 14px;
   font-weight: 500;
   gap: 8px;
+  height: 42px;
+  padding: 0 24px;
   text-transform: uppercase;
-  align-items: center;
 }
 
 .visions__content .visions__talk::selection {
@@ -49,8 +49,8 @@
 }
 
 .visions__content .visions__talk svg {
-  position: relative;
   left: 0;
+  position: relative;
   transition: left .3s ease-in-out;
 }
 
@@ -81,8 +81,8 @@
   }
 
   .visions__content {
-    padding-top: 80px;
     padding-left: 58%;
+    padding-top: 80px;
   }
 
   .visions__content p {

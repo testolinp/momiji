@@ -1,7 +1,7 @@
 import styles from './team-card.module.css'
 import Image from 'next/image'
 
-export default function TeamCard({role, name, image}) {
+export default function TeamCard({ role, name, image }) {
   return (
     <article className={styles.teamCard}>
       <div className={styles.teamCard__image}>

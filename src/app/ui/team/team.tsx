@@ -29,9 +29,9 @@ export default function Team() {
   ]
 
   return (
-    <section className={`container ${styles.team}`} id='team'>
+    <section className={`container ${styles.team}`} id='areas'>
       <motion.h2 initial={{ opacity: 0, top: 20 }}
-            whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
+          whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
         Nuestras áreas
       </motion.h2>
       <ul className={styles.team__list}>

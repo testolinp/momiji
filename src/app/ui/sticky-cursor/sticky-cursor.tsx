@@ -1,11 +1,11 @@
-'use client';
+'use client'
 
-import { useEffect } from 'react';
-import styles from './sticky-cursor.module.css';
-import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { useEffect } from 'react'
+import styles from './sticky-cursor.module.css'
+import { motion, useMotionValue, useSpring } from 'framer-motion'
 
 export default function StickyCursor() {
-  const cursorSize = 15;
+  const cursorSize = 15
 
   const mouse = {
     x: useMotionValue(0),
@@ -24,16 +24,10 @@ export default function StickyCursor() {
     mouse.y.set(clientY - cursorSize / 2);
   }
 
-  // const expandMouse = () => {
-    
-  // }
-
   useEffect( () => {
-    window.addEventListener("mousemove", manageMouseMove);
-    // window.addEventListener('click', () => expandMouse())
+    window.addEventListener("mousemove", manageMouseMove)
     return () => {
       window.removeEventListener("mousemove", manageMouseMove)
-
     }
   }, [])
 

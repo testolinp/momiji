@@ -25,17 +25,19 @@
 
 .menu__nav {
   background-color: var(--grey-color);
-  padding: 24px;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding: 24px;
 }
 
 .menu__nav button {
   background-color: transparent;
   border: 0 none;
   color: var(--black-color);
+  cursor: pointer;
+  font-family: '__Inter_dd250f', '__Inter_Fallback_dd250f';
   font-size: 16px;
   font-weight: 500;
   line-height: 17px;
@@ -43,22 +45,20 @@
   padding: 0;
   text-align: left;
   text-transform: uppercase;
-  cursor: pointer;
-  font-family: '__Inter_dd250f', '__Inter_Fallback_dd250f';
 }
 
 .menu__newsletter {
   background-color: var(--grey-color);
-  padding: 24px;
   border-radius: 40px;
   margin-top: 16px;
+  padding: 24px;
 }
 
 .menu__newsletter h2 {
-  font-size: 16px;
-  line-height: 17px;
-  font-weight: 500;
   color: var(--black-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
   margin-bottom: 24px;
 }
 
@@ -67,37 +67,37 @@
 }
 
 .menu__newsletter__input input {
-  height: 42px;
-  padding: 0 24px;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 500;
-  border: 0 none;
-  width: 100%;
   border-radius: 40px;
+  border: 0 none;
+  font-size: 14px;
+  font-weight: 500;
+  height: 42px;
+  line-height: 17px;
+  padding: 0 24px;
+  width: 100%;
 }
 
 .menu__newsletter__input button {
-  background-color: transparent;
-  border: 0 none;
-  width: 42px;
-  height: 42px;
-  border-radius: 40px;
-  display: flex;
   align-items: center;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 0 none;
+  display: flex;
+  height: 42px;
   justify-content: center;
   position: absolute;
-  top: 0;
   right: 0;
+  top: 0;
+  width: 42px;
 }
 
 @media only screen and (min-width: 1024px) {
   .menu {
-    width: 294px;
-    right: 60px;
-    left: auto;
-    top: 110px;
     background-color: transparent;
+    left: auto;
+    right: 60px;
+    top: 110px;
+    width: 294px;
   }
 
   .menu__wrapper {

@@ -1,10 +1,6 @@
 import styles from './services-card.module.css'
 
-export default function ServicesCard({
-  title,
-  description,
-  items
-}) {
+export default function ServicesCard({ title, description, items }) {
   return (
     <div className={styles.serviceCard}>
       <h3>{title}</h3>

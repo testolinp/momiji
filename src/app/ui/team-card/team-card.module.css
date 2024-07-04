@@ -3,13 +3,13 @@
 }
 
 .teamCard__image {
-  border-radius: 40px;
+  align-items: center;
   background: var(--grey-color);
-  width: 100%;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
+  width: 100%;
 }
 
 .teamCard__image img {
@@ -18,19 +18,19 @@
 }
 
 .teamCard h3 {
-  padding-top: 24px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
   color: var(--black-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding-top: 24px;
 }
 
 .teamCard p {
-  padding-top: 12px;
   color: rgba(0, 0, 0, .5);
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
+  padding-top: 12px;
 }
 
 .teamCard h3::selection,

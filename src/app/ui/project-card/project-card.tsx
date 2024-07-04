@@ -1,11 +1,7 @@
 import styles from './project-card.module.css'
 import Image from 'next/image'
 
-export default function ProjectCard({
-  title,
-  description,
-  image
-}) {
+export default function ProjectCard({ title, description, image }) {
   return (
     <article className={styles.projectCard}>
       <div className={styles.projectCard__image}>

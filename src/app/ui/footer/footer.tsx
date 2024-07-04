@@ -1,7 +1,7 @@
 import styles from './footer.module.css'
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
 
   return (
     <footer className={`container ${styles.footer}`}>

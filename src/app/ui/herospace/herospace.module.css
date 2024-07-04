@@ -7,10 +7,10 @@
 }
 
 .herospace__image__content {
-  height: 100vw;
-  width: 100%;
   border-radius: 40px;
+  height: 100vw;
   overflow: hidden;
+  width: 100%;
 }
 
 .herospace__image__content img {
@@ -19,17 +19,17 @@
 }
 
 .herospace__content {
-  width: 100%;
   padding: 24px 0 0;
+  width: 100%;
 }
 
 .herospace__title {
-  font-size: 24px;
-  line-height: 27px;
   color: var(--black-color);
+  font-size: 24px;
   font-weight: 500;
-  padding-top: 90px;
+  line-height: 27px;
   max-width: 320px;
+  padding-top: 90px;
 }
 
 .herospace__title::selection {
@@ -39,12 +39,12 @@
 
 @media only screen and (min-width: 1024px) {
   .herospace__title {
-    padding-top: 30px;
+    box-sizing: content-box;
     font-size: 32px;
     line-height: 36px;
     max-width: 480px;
     padding-left: 16.6%;
-    box-sizing: content-box;
+    padding-top: 30px;
   }
 
   .herospace__image {
@@ -52,9 +52,9 @@
   }
 
   .herospace__image img {
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
   }
 
@@ -65,9 +65,9 @@
 
 @media only screen and (min-width: 1280px) {
   .herospace__title {
-    padding-top: 25px;
     font-size: 36px;
     line-height: 39px;
+    padding-top: 25px;
   }
 
   .herospace__image {

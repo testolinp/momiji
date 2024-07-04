@@ -1,11 +1,10 @@
-import { inter } from '../../ui/fonts'
 import styles from './menu.module.css'
 
-export default function Menu({showMenu}) {
+export default function Menu({ showMenu }) {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id)
-    element?.scrollIntoView({ behavior: 'smooth'});
-  };
+    element?.scrollIntoView({ behavior: 'smooth'})
+  }
 
   return (
     <div className={`${styles.menu} ${showMenu ? styles.menu__show : ''}`}>
@@ -13,7 +12,7 @@ export default function Menu({showMenu}) {
         <nav className={styles.menu__nav}>
           <button onClick={()=>scrollToSection('vision')}>Nuestra visión</button>
           <button onClick={()=>scrollToSection('services')}>Servicios</button>
-          <button onClick={()=>scrollToSection('team')}>Equipo</button>
+          <button onClick={()=>scrollToSection('areas')}>Areas</button>
           <button onClick={()=>scrollToSection('projects')}>Projectos</button>
           <button onClick={()=>scrollToSection('contact')}>Contacto</button>
         </nav>

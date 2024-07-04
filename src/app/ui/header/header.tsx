@@ -3,7 +3,7 @@
 import styles from './header.module.css'
 import Link from 'next/link'
 import Menu from '../menu/menu'
-import {useState} from 'react'
+import { useState } from 'react'
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false)
@@ -11,8 +11,6 @@ export default function Header() {
   const displayMenu = () => {
     setShowMenu(!showMenu)
   }
-
-
 
   return (
     <header className={styles.header}>

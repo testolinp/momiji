@@ -3,14 +3,14 @@
 }
 
 .projectCard__image {
-  border-radius: 40px;
-  background: var(--grey-color);
-  width: 100%;
+  align-items: center;
   aspect-ratio: 4/3;
+  background: var(--grey-color);
+  border-radius: 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
+  width: 100%;
 }
 
 .projectCard__image img {
@@ -18,10 +18,10 @@
 }
 
 .projectCard p {
-  padding: 24px 0 16px;
   color: rgba(255, 255, 255, .5);
   font-size: 14px;
   font-weight: 500;
+  padding: 24px 0 16px;
 }
 
 .projectCard p::selection {
@@ -30,8 +30,8 @@
 }
 
 .projectCard h3 {
-  font-weight: 500;
   font-size: 22px;
+  font-weight: 500;
 }
 
 .projectCard h3::selection {
@@ -41,8 +41,8 @@
 
 @media only screen and (min-width: 1024px) {
   .projectCard p {
-    padding: 32px 0 16px;
     font-size: 18px;
+    padding: 32px 0 16px;
   }
 
   .projectCard h3 {

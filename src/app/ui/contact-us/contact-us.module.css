@@ -1,9 +1,9 @@
 .contact {
-  padding: 140px 16px;
+  align-items: center;
   background: var(--black-color);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  padding: 140px 16px;
 }
 
 .contact span {
@@ -22,10 +22,10 @@
 }
 
 .contact h2 {
-  font-size: 60px;
-  line-height: 64px;
-  font-weight: 500;
   color: var(--white-color);
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 64px;
   text-align: center;
 }
 
@@ -39,16 +39,16 @@
 }
 
 .contact__cta a {
-  display: flex;
-  gap: 8px;
   align-items: center;
+  background-color: var(--grey-color);
+  border-radius: 32px;
+  color: var(--light-black-color);
+  display: flex;
+  font-weight: 500;
+  gap: 8px;
+  height: 64px;
   justify-content: center;
   padding: 0 24px;
-  height: 64px;
-  border-radius: 32px;
-  background-color: var(--grey-color);
-  color: var(--light-black-color);
-  font-weight: 500;
   text-transform: uppercase;
 }
 
