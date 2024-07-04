@@ -1,13 +1,14 @@
 .serviceCard {
-  background-color: #E3E6EF;
+  background-color: var(--grey-color);
   border-radius: 40px;
   padding: 40px;
 }
 
 .serviceCard h3 {
+  color: var(--black-color);
   font-size: 22px;
   font-weight: 500;
-  padding: 0 0 20px;
+  padding: 0 0 16px;
 }
 
 .serviceCard h3::selection {
@@ -15,18 +16,27 @@
   color: var(--white-color);
 }
 
-.serviceCard ul li {
+.serviceCard p {
+  color: var(--black-color);
   font-size: 16px;
   font-weight: 500;
+  line-height: 20px;
+}
+
+.serviceCard p::selection {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.serviceCard ul li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
   list-style-type: none;
-  padding: 20px 0;
+  padding-top: 15px;
 }
 
 .serviceCard ul li::selection {
   background-color: var(--black-color);
   color: var(--white-color);
-}
-
-.serviceCard ul li:not(:last-child) {
-  border-bottom: 1px solid #d8d0da;
 }

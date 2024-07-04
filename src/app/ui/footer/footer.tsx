@@ -19,17 +19,15 @@ export default function Footer() {
           </div> */}
           <ul className={styles.footer__content}>
             <li className={styles.footer__content__address}>
-              Autónoma de Buenos Aires<br/>Argentina
+              Av. Chivilcoy 3044<br/>
+              <a href='tel:+54 9 11 3169 9821' target='_blank'>+54 9 11 3169 9821</a><br/>
+              Buenos Aires Argentina
             </li>
             <li className={styles.footer__content__social}>
-              <a href='/' target='_blank'>Linkedin</a><br/>
-              <a href='/' target='_blank'>Whatsapp</a>
-            </li>
-            <li className={styles.footer__content__business}>
-              Nuevas empresas<br/><a href='mailto:business@sharpti.com' target='_blank'>business@sharpti.com</a>
+              <a href='/' target='_blank'>Linkedin</a>
             </li>
             <li className={styles.footer__content__contact}>
-              Preguntas generales<br/><a href='mailto:hello@sharpti.com' target='_blank'>hello@sharpti.com</a>
+              Contactanos<br/><a href='mailto:hello@sharpti.com' target='_blank'>contacto@sharpti.com</a>
             </li>
           </ul>
         </div>

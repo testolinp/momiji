@@ -14,7 +14,7 @@ export default function Visions() {
       <div className={styles.visions__content}>
         <motion.p initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .7, duration: .5 }} viewport={{ once: true }}>
-          En nuestra empresa, creamos desarrollos web a medida e implementamos CRMs innovadores. Utilizamos tecnología avanzada para ser tu socio estratégico, ayudándote a alcanzar tus objetivos de negocio a través de la transformación digital. Impulsa tu crecimiento con soluciones personalizadas y eficientes.
+          Somos una agencia especializada en crear soluciones personalizadas que impulsan el impulso de nuestros clientes.
         </motion.p>
         <motion.div initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .5, duration: .5 }} viewport={{ once: true }}>

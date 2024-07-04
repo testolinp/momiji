@@ -7,24 +7,24 @@ import { motion } from 'framer-motion'
 export default function Team() {
   const members = [
     {
-      role: 'Advisor',
-      name: 'Delfina Galan',
-      image: '/images/team/delfina-galan.jpeg'
-    },
-    {
-      role: 'CTO',
+      role: 'Innovación y desarrollo',
       name: 'Brian de Diego',
       image: '/images/team/brian-dediego.jpeg'
     },
     {
-      role: 'CPO',
+      role: 'Diseño de marca',
+      name: 'Paola Braile',
+      image: '/images/team/paola-braile.jpeg'
+    },
+    {
+      role: 'Dirección de proyectos',
       name: 'Patricio Testolin',
       image: '/images/team/patricio-testolin.jpeg'
     },
     {
-      role: 'Senior Brand Designer',
-      name: 'Paola Braile',
-      image: '/images/team/paola-braile.jpeg'
+      role: 'Estrategia de negocios',
+      name: 'Delfina Galan',
+      image: '/images/team/delfina-galan.jpeg'
     }
   ]
 
@@ -32,7 +32,7 @@ export default function Team() {
     <section className={`container ${styles.team}`} id='team'>
       <motion.h2 initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
-        Conocé al equipo
+        Nuestras áreas
       </motion.h2>
       <ul className={styles.team__list}>
         {members.map((member, key) => {

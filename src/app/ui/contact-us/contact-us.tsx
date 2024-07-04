@@ -9,7 +9,7 @@ export default function ContactUs() {
     <section className={styles.contact} id='contact'>
       <motion.span initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .6, duration: .5 }} viewport={{ once: true }}>
-        Tenes una gran idea para conquistar el mundo?
+        Tenes una gran idea?
       </motion.span>
       <motion.h2 initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .8, duration: .5 }} viewport={{ once: true }}>

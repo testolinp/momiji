@@ -10,7 +10,7 @@ export default function Herospace() {
       <div className={styles.herospace__content}>
         <motion.h1 className={styles.herospace__title} initial={{ opacity: 0, top: 20 }}
             whileInView={{ opacity: 1, top: 0 }} transition={{ delay: .3, duration: .5 }} viewport={{ once: true }}>
-          Generamos productos digitales a medida de cada cliente, siempre con foco en la experiencia de sus usuarios
+          Desarrollamos la tecnología para que impulse tu negocio.
         </motion.h1>
       </div>
       <div className={styles.herospace__image}>
