@@ -17,6 +17,11 @@ export default function Team() {
       image: '/images/team/paola-braile.jpeg'
     },
     {
+      role: 'Experiencia de usuario',
+      name: 'Valeria Gambarg',
+      image: '/images/team/valeria-gambarg.jpg'
+    },
+    {
       role: 'Dirección de proyectos',
       name: 'Patricio Testolin',
       image: '/images/team/patricio-testolin.jpeg'
