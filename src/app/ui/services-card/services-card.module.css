@@ -36,6 +36,18 @@
   padding-top: 15px;
 }
 
+.serviceCard ul li::before {
+  background-color: var(--black-color);
+  border-radius: 100%;
+  content: '';
+  display: inline-block;
+  height: 5px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
+  width: 5px;
+}
+
 .serviceCard ul li::selection {
   background-color: var(--black-color);
   color: var(--white-color);

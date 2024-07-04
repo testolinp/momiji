@@ -8,7 +8,7 @@ export default function ServicesCard({ title, description, items }) {
       <ul>
         {
           items.map((item, index) => {
-            return <li key={index}>- {item}</li>
+            return <li key={index}>{item}</li>
           })
         }
       </ul>
