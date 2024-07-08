@@ -1,8 +1,8 @@
 .team h2 {
   color: var(--black-color);
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 49px;
+  line-height: 45px;
 }
 
 .team h2::selection {
