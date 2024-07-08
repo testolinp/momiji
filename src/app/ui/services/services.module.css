@@ -11,9 +11,9 @@
 
 .services h2 {
   color: var(--black-color);
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 43px;
 }
 
 .services h2::selection,
