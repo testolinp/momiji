@@ -36,6 +36,20 @@
   color: var(--white-color);
 }
 
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .herospace__image__content {
     height: 100vw;
