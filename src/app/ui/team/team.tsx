@@ -7,29 +7,24 @@ import { motion } from 'framer-motion'
 export default function Team() {
   const members = [
     {
-      role: 'Innovación y desarrollo',
-      name: 'Brian de Diego',
-      image: '/images/team/brian-dediego.jpeg'
-    },
-    {
       role: 'Diseño de marca',
       name: 'Paola Braile',
       image: '/images/team/paola-braile.jpeg'
     },
     {
-      role: 'Experiencia de usuario',
+      role: 'UX/UI',
       name: 'Valeria Gambarg',
       image: '/images/team/valeria-gambarg.jpg'
+    },
+    {
+      role: 'Innovación y desarrollo',
+      name: 'Brian de Diego',
+      image: '/images/team/brian-dediego.jpeg'
     },
     {
       role: 'Dirección de proyectos',
       name: 'Patricio Testolin',
       image: '/images/team/patricio-testolin.jpeg'
-    },
-    {
-      role: 'Estrategia de negocios',
-      name: 'Delfina Galan',
-      image: '/images/team/delfina-galan.jpeg'
     }
   ]
 
