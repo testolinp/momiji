@@ -12,10 +12,14 @@ export default function Header() {
     setShowMenu(!showMenu)
   }
 
+  const hideMenu = () => {
+    displayMenu()
+  }
+
   return (
     <header className={styles.header}>
       <div className={styles.header__wrapper}>
-        <Link href='/' aria-label={'SharpTI'} className={styles.header__lg}>SharpTI</Link>
+        <Link href='/' aria-label={'SharpTI'} className={`${styles.header__lg} ${showMenu ? styles.header__lg__reverse : ''}`}>SharpTI</Link>
         <div className={styles.header__buttons}>
           <button className={styles.header__talk} aria-label='Contacto'>
             Contacto
@@ -30,7 +34,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <Menu showMenu={showMenu}></Menu>
+      <Menu showMenu={showMenu} hideMenu={hideMenu}></Menu>
     </header>
   )
 }

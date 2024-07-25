@@ -11,7 +11,11 @@ export default function RootLayout(
       <head>
         <title>Sharpti | Transformación digital a tu medida</title>
         <link rel='icon' type='image/x-icon' href='/images/favicon.ico' />
-        <meta name='description' content='Generamos productos digitales a medida de cada cliente, siempre con foco en la experiencia de sus usuarios' />
+        <meta name='description' content='Somos una agencia especializada en crear soluciones personalizadas que aceleran el crecimiento de nuestros clientes.' />
+        <meta property='og:title' content='Sharpti | Transformación digital a tu medida' />
+        <meta property='og:description' content='Somos una agencia especializada en crear soluciones personalizadas que aceleran el crecimiento de nuestros clientes.' />
+        <meta property='og:url' content='https://www.sharpti.com/' />
+        <meta property='og:image' content='https://www.sharpti.com/images/herospace-mobile.jpg' />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header></Header>

@@ -8,22 +8,22 @@ export default function Projects() {
   const projects = [
     {
       title: 'Gut Agency',
-      description: 'Desarrollamos su sitio en tres idiomas para resaltar su crecimiento en diversas regiones.',
+      subtitle: 'Agencia de publicidad',
       image: '/images/project-gut.jpg'
     },
     {
       title: 'Dift.co',
-      description: 'Project Description',
+      subtitle: 'Agencia digital',
       image: '/images/project-dift.jpg'
     },
     {
       title: 'Filo.news',
-      description: 'Project Description',
+      subtitle: 'Portal de noticias',
       image: '/images/project-filo.jpg'
     },
     {
       title: 'Caliber',
-      description: 'Empresa que ofrece ofrece servicios completos de reparación automotriz, incluyendo reparación de colisiones, reparación de vidrios de autos y cuidado general del automóvil.',
+      subtitle: 'E-commerce',
       image: '/images/project-caliber.jpg'
     },
   ]
@@ -45,7 +45,7 @@ export default function Projects() {
                 whileInView={{ opacity: 1, top: 0 }} transition={{ delay: delayTime, duration: .5 }} viewport={{ once: true }}>
               <ProjectCard
                 title={project.title}
-                description={project.description}
+                subtitle={project.subtitle}
                 image={project.image}
               ></ProjectCard>
             </motion.li>
