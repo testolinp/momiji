@@ -19,15 +19,13 @@ export default function Footer() {
           </div> */}
           <ul className={styles.footer__content}>
             <li className={styles.footer__content__address}>
-              Av. Chivilcoy 3044<br/>
-              <a href='tel:+54 9 11 3169 9821' target='_blank'>+54 9 11 3169 9821</a><br/>
-              Buenos Aires Argentina
+            Actualmente estamos<br /> trabajando de forma remota.
             </li>
             <li className={styles.footer__content__social}>
-              <a href='/' target='_blank'>Linkedin</a>
+              Contactanos<br/><a href='mailto:contact@sharpti.com' target='_blank'>contact@sharpti.com</a>
             </li>
             <li className={styles.footer__content__contact}>
-              Contactanos<br/><a href='mailto:hello@sharpti.com' target='_blank'>contacto@sharpti.com</a>
+              Para solicitar presupuesto contáctanos en <a href='mailto:contact@sharpti.com' target='_blank'>contact@sharpti.com</a> describiéndonos con detalle tu proyecto y cómo crees que podemos ayudarte.
             </li>
           </ul>
         </div>

@@ -7,44 +7,6 @@
   padding-bottom: 80px;
 }
 
-.footer__newsletter h2 {
-  color: var(--black-color);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 35px;
-  padding-bottom: 32px;
-}
-
-.footer__newsletter__form {
-  position: relative;
-}
-
-.footer__newsletter__form input {
-  background-color: var(--grey-color);
-  border-radius: 40px;
-  border: 0 none;
-  font-size: 14px;
-  font-weight: 500;
-  height: 64px;
-  padding: 0 24px;
-  width: 100%;
-}
-
-.footer__newsletter__form button {
-  align-items: center;
-  background-color: transparent;
-  border-radius: 40px;
-  border: 0 none;
-  cursor: pointer;
-  display: flex;
-  height: 64px;
-  justify-content: center;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 64px;
-}
-
 .footer__content {
   color: var(--black-color);
   font-size: 16px;
@@ -66,10 +28,6 @@
 
 .footer__content li:first-child {
   padding-top: 0;
-}
-
-.footer__content li:last-child {
-  padding-top: 32px;
 }
 
 .footer__content__address {
@@ -105,12 +63,6 @@
   .footer {
     padding-top: 60px;
   }
-  .footer__wrapper {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 'copy newsletter';
-    gap: 20px; */
-  }
 
   .footer__content li {
     padding-top: 0;
@@ -120,28 +72,11 @@
     padding-top: 0;
   }
 
-  .footer__newsletter {
-    grid-area: newsletter;
-  }
-
-  .footer__newsletter h2 {
-    font-size: 48px;
-    line-height: 51px;
-  }
-
-  .footer__newsletter h2 span {
-    display: block;
-  }
-
-  .footer__newsletter__form {
-    max-width: 80%;
-  }
-
   .footer__content {
     display: grid;
     font-size: 18px;
-    grid-area: copy;
     grid-template-areas: 'address social contact';
+    grid-template-columns: repeat(3, 1fr);
     line-height: 22px;
     padding-top: 0;
   }
