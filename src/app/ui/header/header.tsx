@@ -27,11 +27,11 @@ export default function Header() {
               <path d='M16.175 13.7131H4V11.7131H16.175L10.575 6.11307L12 4.71307L20 12.7131L12 20.7131L10.575 19.3131L16.175 13.7131Z' fill='white' />
             </svg>
           </a>
-          <button className={`${styles.header__menu} ${showMenu ? styles.header__menu__close : ''}`} aria-label='Show menu'
+          {/* <button className={`${styles.header__menu} ${showMenu ? styles.header__menu__close : ''}`} aria-label='Show menu'
               onClick={displayMenu}>
             <small>Menu</small>
             <span></span>
-          </button>
+          </button> */}
         </div>
       </div>
       <Menu showMenu={showMenu} hideMenu={hideMenu}></Menu>
